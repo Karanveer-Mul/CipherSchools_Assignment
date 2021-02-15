@@ -45,7 +45,7 @@ public class AlternateSorting {
     public static void main(String[] args) {
         int arr[] = {7, 1, 2, 3, 4, 5, 6};
 
-        Main ob = new Main();
+        AlternateSorting ob = new AlternateSorting();
         ob.sort(arr, 0, arr.length - 1);
 
         printArray(arr);
