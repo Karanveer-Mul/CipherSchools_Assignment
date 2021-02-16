@@ -16,7 +16,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
+        int arr[] = {5, 6, 3, 11, 9, 7, 4, 12, 3};
 
         BinarySearch ob = new BinarySearch();    
         System.out.print(ob.binarySearch(arr, 9));
