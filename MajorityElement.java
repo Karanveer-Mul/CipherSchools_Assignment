@@ -27,10 +27,10 @@ class BST {
                 root = new Node(key); 
                 return root; 
             } 
-            //traverse the tree
-            if (key < root.key)     //insert in the left subtree
+            
+            if (key < root.key)     
                 root.left = insert_Recursive(root.left, key); 
-            else if (key > root.key)    //insert in the right subtree
+            else if (key > root.key)    
                 root.right = insert_Recursive(root.right, key); 
             else root.count += 1;
             return root; 
