@@ -7,7 +7,7 @@ public class MissingNumber {
 
         for(int i=0; i<arr.length; i++) {
             sumArr += arr[i];
-            sum += i+1;
+            sum += i + 1;
         }
 
         System.out.println(sum + arr.length + 1 - sumArr);
