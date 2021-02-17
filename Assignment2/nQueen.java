@@ -15,7 +15,7 @@ public class nQueen {
         }
 
         for (int k = 0; k < mat[0].length; k++) {
-            if (isSafeToPlace(mat, i, k)) {
+            if (canPlace(mat, i, k)) {
                 mat[i][k] = 1;
                 boolean isPlaced = placeQueens(mat, i + 1);
                 if (isPlaced) {
@@ -30,7 +30,7 @@ public class nQueen {
 
     }
 
-    private static boolean isSafeToPlace(int[][] mat, int i, int k) { 
+    private static boolean canPlace(int[][] mat, int i, int k) { 
 
         for (int row = 0; row < i; row++) {
             if (mat[row][k] == 1) {
