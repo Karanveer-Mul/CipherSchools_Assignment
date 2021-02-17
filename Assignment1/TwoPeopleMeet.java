@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class TwoPeopleMeet {
     public static String doesMeets(int x1, int x2, int v1, int v2) {
         if(x1>x2 && v1>=v2) return "No";

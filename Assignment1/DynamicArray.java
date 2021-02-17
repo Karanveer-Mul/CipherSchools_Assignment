@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class DynamicArray {
     
     private int[] arr;

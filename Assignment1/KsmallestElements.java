@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class KsmallestElements {
     
     void smallestElements(int[] arr, int k) {

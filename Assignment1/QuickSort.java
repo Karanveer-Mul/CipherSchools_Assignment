@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class QuickSort {
 
     int pivoter(int arr[], int low, int high) {
@@ -30,7 +32,6 @@ public class QuickSort {
 
     static void printArray(int arr[]) {
         int i = 0;
-        int j = arr.length - 1;
 
         while(i<arr.length) {
             System.out.print(arr[i] + " ");

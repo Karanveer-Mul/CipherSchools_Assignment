@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class MinimumPlatform {
     
     static int numberOfPlatform(int[] arv, int[] dep) {

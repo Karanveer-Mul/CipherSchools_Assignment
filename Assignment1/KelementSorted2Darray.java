@@ -1,3 +1,5 @@
+package Assignment1;
+
 class KelementSorted2Darray{
     
     public static int kthSmallest(int[][] matrix, int k)

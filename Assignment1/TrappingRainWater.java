@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class TrappingRainWater {
     
     int rain(int[] arr) {

@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class FindFirstLastOccurence {
     public static void firstLast(int[] arr, int x) {
         

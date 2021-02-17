@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class PrintMatrixSpiral {
     
     public static void printMartix(int[][] arr, int i, int j, int m, int n) {

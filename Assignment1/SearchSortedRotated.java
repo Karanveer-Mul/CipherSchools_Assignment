@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class SearchSortedRotated {
     
     int binarySearch(int[] arr, int i, int j, int k) {

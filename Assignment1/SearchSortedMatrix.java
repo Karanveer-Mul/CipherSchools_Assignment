@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class SearchSortedMatrix {
     
     public static int searchMatix (int [][] mat, int x) {

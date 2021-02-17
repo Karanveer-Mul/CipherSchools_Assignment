@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class BinarySearch {
     int binarySearch(int[] arr, int k) {
         int i = 0;

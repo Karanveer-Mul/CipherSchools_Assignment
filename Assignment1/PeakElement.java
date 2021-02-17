@@ -1,6 +1,8 @@
+package Assignment1;
+
 public class PeakElement {
     public static int findPeak() {
-        int[] arr1 = {5, 10, 20, 15};
+       
         int[] arr2 = {10, 20, 15, 2, 23, 90, 67};
 
         if(arr2.length <= 1) return arr2[0]; 

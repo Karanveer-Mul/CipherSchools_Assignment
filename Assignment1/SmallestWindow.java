@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class SmallestWindow {
     public String minWindow(String s, String t) {
         int [] map = new int[128];
