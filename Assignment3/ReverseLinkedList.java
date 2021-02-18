@@ -32,6 +32,17 @@ public class ReverseLinkedList {
         return prev;
     }
 
+    Node recursive(Node root) {
+        if(root == null || root.next == null) {
+            return root;
+        }
+        Node next= recursive(root.next);
+        root.next.next = root;
+
+        root.next = null;
+        return next;
+    }
+
     public static void main(String[] args) {
         ReverseLinkedList list = new ReverseLinkedList();
         list.head = new Node(85);
@@ -39,7 +50,7 @@ public class ReverseLinkedList {
         list.head.next.next = new Node(4);
         list.head.next.next.next = new Node(20);
 
-        head = list.reverseList(head); 
+        head = list.recursive(head); 
         while(head != null) {
             System.out.print(head.value + " ");
             head = head.next;
