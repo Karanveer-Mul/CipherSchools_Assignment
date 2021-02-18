@@ -1,7 +1,5 @@
 package Assignment3;
 
-import org.w3c.dom.Node;
-
 public class ReverseLinkedList {
     
     static Node head;
